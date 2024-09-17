@@ -4,7 +4,7 @@ from sqlalchemy.types import Integer, Text, String, DateTime
 import pymysql
 
 # database engine
-engine = create_engine("mysql+pymysql://username:password@localhost:3306/exercise_db")
+engine = create_engine("mysql+pymysql://username:admin@localhost:3306/exercise_db")
 
 # import csv file and convert to dataframe
 df = pd.read_csv("exercise_database.csv")
